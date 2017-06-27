@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<haed>
+<meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1,maximum-scale=1" charset="utf-8">
+<title>QQ注册验证</title>
+</head>
+<body>
+<img src="bg_chs.png" alt="QQ注册"/>
+<h3>注册账号</h3>
+<form method="post" action="">
+<p>
+昵称<input type="text" pattern="[-\w\u4E00-\u9FA5]{4,10}"name="uername" required/ >
+ 长度为4-10个字符
+<br/>
+<br/>
+密码<input type="password" pattern="[\dA-Za-z]{6,16}"name="pass" required/ >
+ 长度为6-16个字符
+<br/>
+<br/>
+确认密码<input type="password" pattern="[\dA-Za-z]{6,16}"name="pass1" required/ >
+ 长度为6-16个字符
+<br/>
+<br/>
+手机号码<input type="number" pattern="1[3578]\d{9}"name="iphoneNumber" required/ >
+ 密码长度为11位，以13|5|7|8开头
+<br/>
+<br/>
+邮箱<input type="email" pattern="1[3578]\d{9}"name="email" required/ >
+<br/>
+<br/>
+年龄<input type="number" pattern="\d|[1-9]\d|1[0-2]\d"name="year" required/ >
+<br/>
+<br/>
+ <input type="image" src="btn.bmp" value=""/>
+</p>
+</form>
+</body>
+</html>
